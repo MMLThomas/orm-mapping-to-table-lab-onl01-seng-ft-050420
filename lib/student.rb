@@ -29,7 +29,7 @@ class Student
   end
   
   def save
-    DB[:conn] << self
+    INSERT students VALUES (?, ?, ?) name grade, id
     
   end
   
