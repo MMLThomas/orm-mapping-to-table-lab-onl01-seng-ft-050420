@@ -29,7 +29,8 @@ class Student
   end
   
   def save
-    INSERT INTO students (name, grade) VALUES (?, ?, ?)
+    INSERT INTO students (name, grade) 
+    VALUES (?, ?)
     
   end
   
